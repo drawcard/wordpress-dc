@@ -8,5 +8,7 @@
 # ignore init.sh
 init.sh
 
-# ignore other things: http://roybarber.com/version-controlling-wordpress/
-/content/themes/build/.sass-cache/*
+# ignore other things: http://efeqdev.com/website-development/this-is-how-we-version-control-and-deploy-our-wordpress-websites-with-git/
+# Remove SASS cache files 
+content/themes/build/.sass-cache/*
+
