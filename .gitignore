@@ -4,3 +4,9 @@
 /db-sync
 /content/upgrade/
 .DS_Store
+
+# ignore init.sh
+init.sh
+
+# ignore other things: http://roybarber.com/version-controlling-wordpress/
+/content/themes/build/.sass-cache/*
