@@ -6,6 +6,7 @@ To initialise all of the deployment scripts:
 
 ```bash
 git checkout -b "drawcard"
+git pull origin drawcard
 ./init.sh
 ```
 
