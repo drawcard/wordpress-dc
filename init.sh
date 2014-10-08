@@ -6,7 +6,7 @@ git submodule add https://github.com/jplew/SyncDB deploy/SyncDB
 git submodule add https://github.com/roots/roots content/themes/build
 
 echo "Pull from repo and fetch latest submodules..."
-git pull origin master && git submodule update --recursive
+git pull origin master && git submodule update --init --recursive
 sleep 1
 
 echo "Copy git-deploy-php to root folder..."
