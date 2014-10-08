@@ -1,4 +1,13 @@
 # WordPress Skeleton
+## Drawcard Edition
+
+### Initialise the repo
+To initialise all of the deployment scripts:
+
+```bash
+git checkout -b "drawcard"
+./init.sh
+```
 
 This is simply a skeleton repo for a WordPress site. Use it to jump-start your WordPress site repos, or fork it and customize it to your own liking!
 
