@@ -1,4 +1,6 @@
 #!/bin/bash
+echo "Creating development branch..."
+git checkout -b 'dev'
 
 echo "Adding submodules..."
 git submodule add https://github.com/BrunoDeBarros/git-deploy-php deploy/git-deploy-php
@@ -7,6 +9,7 @@ git submodule add https://github.com/roots/roots content/themes/build
 
 echo "Pull from repo and fetch latest submodules..."
 git pull origin master && git submodule update --init --recursive
+git submodule status
 sleep 1
 
 echo "Copy git-deploy-php to root folder..."
