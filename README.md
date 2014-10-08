@@ -10,6 +10,12 @@ git pull origin drawcard
 ./init.sh
 ```
 
+Then, check out a dev branch to seperate your work:
+
+```bash
+git checkout -b "dev"
+```
+
 This is simply a skeleton repo for a WordPress site. Use it to jump-start your WordPress site repos, or fork it and customize it to your own liking!
 
 ## Assumptions
