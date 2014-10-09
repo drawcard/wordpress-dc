@@ -5,9 +5,6 @@
 /content/upgrade/
 .DS_Store
 
-# ignore init.sh
-init.sh
-
 # ignore other things: http://efeqdev.com/website-development/this-is-how-we-version-control-and-deploy-our-wordpress-websites-with-git/
 # Remove SASS cache files 
 content/themes/build/.sass-cache/*
