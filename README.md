@@ -41,6 +41,15 @@ grunt build # Initialise the theme files
 grunt watch # Monitor the folder for changes and compile on the fly
 ```
 
+## If you are experiencing CSS / JS loading issues with themes
+If you are hosting your WP install in a subfolder on your server (eg ip-address/project-name/...) you need to tell wp-config where to find the custom content directory. On line 84 change the following:
+
+```php
+define( 'WP_CONTENT_URL', 'http://' . $_SERVER['HTTP_HOST'] . '/content' );
+// change to
+define( 'WP_CONTENT_URL', 'http://' . $_SERVER['HTTP_HOST'] . '/project-name/content' );
+```
+
 ## Assumptions
 
 * WordPress as a Git submodule in `/wp/`
