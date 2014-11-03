@@ -20,11 +20,13 @@ git checkout drawcard
 Init.sh is a simple script that installs a few helpful extras, eg. Roots theme, DBSync, etc. It's not compulsory.
 
 ### Setting up
+This setup assumes you've installed WP on a local server or VM, and you intend to synchronise it to a remote production server somewhere on the Internet. You need to create a local DB as well as a remote DB (eg using PHPMyAdmin) and write down the access credentials.
 ```bash
-# Use MySQL / PHPMyAdmin then create a new username and local database for the install
 cp local-config-sample.php local-config.php
 nano local-config.php
 # Add your local db information here, save and exit
+nano wp-config.php
+# Add your remote db information here, save and exit
 # Visit your project's URL in a browser to finish setup
 ```
 
