@@ -5,20 +5,20 @@ This is simply a skeleton repo for a WordPress site. Use it to jump-start your W
 ## Setup Instructions
 
 ### Grabbing the PHP code
-```
+```bash
 git clone https://github.com/drawcard/wordpress-dc project-name
 cd project-name
 git submodule init
 git submodule update --recursive
 git checkout drawcard
-./init.sh 
+./init.sh #Optional
 ```
 
 ### What is init.sh?
 Init.sh is a simple script that installs a few helpful extras, eg. Roots theme, DBSync, etc. It's not compulsory.
 
 ### Setting up
-```
+```bash
 # Use MySQL / PHPMyAdmin then create a new username and local database for the install
 cp local-config-sample.php local-config.php
 nano local-config.php
