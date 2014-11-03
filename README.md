@@ -1,6 +1,19 @@
-# WordPress Skeleton
+# WordPress Skeleton (Drawcard Fork)
 
 This is simply a skeleton repo for a WordPress site. Use it to jump-start your WordPress site repos, or fork it and customize it to your own liking!
+
+## Setup
+
+```
+git clone https://github.com/drawcard/wordpress-dc project-name
+cd project-name
+git submodule init
+git submodule update --recursive
+./init.sh 
+```
+
+### What is init.sh?
+Init.sh is a simple script that installs a few helpful extras, eg. Roots theme, DBSync, etc. It's not compulsory.
 
 ## Assumptions
 
