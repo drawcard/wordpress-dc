@@ -28,15 +28,16 @@ nano local-config.php
 # Visit your project's URL in a browser to finish setup
 ```
 
-### If you are using Grunt + Bower + SASS + Roots.io theme
+### If you are using Roots.io theme + Grunt for autocompiling Sass / JS
 (Assuming you have those packages preinstalled)
 
 ```bash
 # After running init.sh
 cd content/themes/build
 npm install
-grunt watch
-# Start editing less files to compile them
+# If you are missing 
+grunt build # Initialise the theme files
+grunt watch # Monitor the folder for changes and compile on the fly
 ```
 
 ## Assumptions
