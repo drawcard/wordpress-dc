@@ -35,7 +35,8 @@ nano local-config.php
 # After running init.sh
 cd content/themes/build
 npm install
-# If you are missing 
+# If you are getting errors you are probably missing dependencies
+# Be sure that you've installed Ruby, Sass + Compass Gems!
 grunt build # Initialise the theme files
 grunt watch # Monitor the folder for changes and compile on the fly
 ```
