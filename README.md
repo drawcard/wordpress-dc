@@ -9,6 +9,7 @@ git clone https://github.com/drawcard/wordpress-dc project-name
 cd project-name
 git submodule init
 git submodule update --recursive
+git checkout drawcard
 ./init.sh 
 ```
 
