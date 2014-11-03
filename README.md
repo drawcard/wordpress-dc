@@ -2,6 +2,8 @@
 
 This is simply a skeleton repo for a WordPress site. Use it to jump-start your WordPress site repos, or fork it and customize it to your own liking!
 
+---
+
 ## Setup Instructions
 
 ### Grabbing the PHP code
@@ -26,6 +28,16 @@ nano local-config.php
 # Visit your project's URL in a browser to finish setup
 ```
 
+### If you are using Grunt + Bower + SASS + Roots.io theme
+(Assuming you have those packages preinstalled)
+
+```bash
+# After running init.sh
+cd content/themes/build
+npm install
+grunt watch
+# Start editing less files to compile them
+```
 
 ## Assumptions
 
