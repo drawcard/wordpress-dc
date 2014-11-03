@@ -23,6 +23,7 @@ Init.sh is a simple script that installs a few helpful extras, eg. Roots theme, 
 cp local-config-sample.php local-config.php
 nano local-config.php
 # Add your local db information here, save and exit
+# Visit your project's URL in a browser to finish setup
 ```
 
 
