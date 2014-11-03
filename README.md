@@ -11,7 +11,7 @@ cd project-name
 git submodule init
 git submodule update --recursive
 git checkout drawcard
-./init.sh //Optional
+./init.sh 
 ```
 
 ### What is init.sh?
@@ -19,10 +19,10 @@ Init.sh is a simple script that installs a few helpful extras, eg. Roots theme, 
 
 ### Setting up
 ```
-//Use MySQL / PHPMyAdmin then create a new username and local database for the install
+# Use MySQL / PHPMyAdmin then create a new username and local database for the install
 cp local-config-sample.php local-config.php
 nano local-config.php
-//Add your local db information here, save and exit
+# Add your local db information here, save and exit
 ```
 
 
