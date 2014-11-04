@@ -25,8 +25,13 @@ This setup assumes you've installed WP on a local server or VM, and you intend t
 cp local-config-sample.php local-config.php
 nano local-config.php
 # Add your local db information here, save and exit
+
 nano wp-config.php
 # Add your remote db information here, save and exit
+# For security reasons and to reduce conflicts, it's also a good idea to change table prefixes before running WP setup.
+# Replace 'wp_' with a random letter or number combination, eg:
+$table_prefix = '20dc3_'; # Line 45
+
 # Visit your project's URL in a browser to finish setup
 ```
 
