@@ -27,10 +27,12 @@ nano local-config.php
 # Add your local db information here, save and exit
 
 nano wp-config.php
-# Add your remote db information here, save and exit
+# Add your remote db information here
+
 # For security reasons and to reduce conflicts, it's also a good idea to change table prefixes before running WP setup.
 # Replace 'wp_' with a random letter or number combination, eg:
 $table_prefix = '20dc3_'; # Line 45
+# Save and exit the file
 
 # Visit your project's URL in a browser to finish setup
 ```
